@@ -7,7 +7,7 @@ namespace Module_6_Task_5.UI
 {
     public class Menu
     {
-        private List<ElementMenu> Elements = new List<ElementMenu>();
+        public List<ElementMenu> Elements = new List<ElementMenu>();
         public bool Active = true;
 
         public Menu AddElement(ElementMenu element)
